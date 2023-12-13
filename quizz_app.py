@@ -2,7 +2,7 @@ import openai
 import langchain
 import streamlit as st
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_quiz_data(topic, num_questions):
     quiz_data = []
