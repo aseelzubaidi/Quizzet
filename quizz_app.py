@@ -58,7 +58,7 @@ def main():
         unsafe_allow_html=True,
     )
 
-    st.image("logo.png", width=150)  # Replace "your_logo.png" with your logo image file
+    st.image("logo.png", width=150)  
     st.title("MCQ Quiz Application")
 
     topic = st.text_input("Enter your preferred quiz topic:")
